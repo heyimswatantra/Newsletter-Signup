@@ -2,9 +2,7 @@
 <html lang="en"><head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.104.2">
+    
     <title>Newsletter_Signup_page</title>
 
     <link rel = "stylesheet" href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>    
@@ -18,20 +16,21 @@
   </head>
   <body class="text-center">
     
-<main class="form-signin w-100 m-auto">
+<main class="form-signin ">
   <form action="/" method="post">
     <img class="mb-4" src="th.jpg" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">Sign up to my newsletter</h1>
 
     
-      <input type="text" name="fName" class="form-control" id="top" placeholder="First Name">
+      <input type="text " name="fName" class="form-control" id="top" placeholder="First Name" required>
       
-      <input type="text" name="lName" class="form-control" id="middle" placeholder="Last Name">
+      <input type="text" name="lName" class="form-control" id="middle" placeholder="Last Name" required>
       
-      <input type="email" name="email" class="form-control" id="bottom" placeholder="Email">
+      <input type="email" name="email" class="form-control" id="bottom" placeholder="Email" required>
       
       <br>
     <button class="w-100 btn btn-lg btn-primary" type="submit">Sign Me Up!</button>
+    <br>
     <p class="mt-5 mb-3 text-muted">xyz@abc</p>
   </form>
 </main>

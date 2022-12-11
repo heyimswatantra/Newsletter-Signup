@@ -13,5 +13,13 @@
     "request": "^2.88.2"
   },
   "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heyimswatantra/Newsletter-Signup.git"
+  },
+  "bugs": {
+    "url": "https://github.com/heyimswatantra/Newsletter-Signup/issues"
+  },
+  "homepage": "https://github.com/heyimswatantra/Newsletter-Signup#readme",
   "description": ""
 }
